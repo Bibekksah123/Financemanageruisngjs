@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expenses manager</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h2>Expenses Manager</h2>
+  <div class="container">
+    <h4>Your Balance</h4>
+    <h1 id="balance">Rs0.00</h1>
+    <div class="inc-container-balance">
+      <div>
+        <h2>Income</h2>
+        <div class="money-plus" id="money-plus">+Rs0.00</div>
+      </div>
+      <div>
+        <h2>Expenses</h2>
+        <div class="money-min" id="money-min">-Rs0.00</div>
+      </div>
+    </div>
+    <h3>List of Monthly Expenses</h3>
+    <ul id="list" class="list">
+      <!-- <li class="mins">
+        cash <span>Rs400</span>
+        <button class="delbtn">x</button>
+        
+      </li> -->
+    </ul>
+    <h3>Add New transaction</h3>
+    <form action="" id="form">
+      <div class="control">
+        <label for="text">Text</label>
+          <input type="text" placeholder="Write text here..." id="text">
+      </div>
+      <div class="control">
+        <label for="amount">Amount</label>
+          <input type="number" placeholder="Write Amount here..." id="amount">
+      </div>
+      <button class="Btn">All transaction</button>
+    </form>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
